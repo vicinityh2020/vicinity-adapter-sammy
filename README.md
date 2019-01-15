@@ -57,5 +57,6 @@ SaMMY devices from Patras (Greece) port mooring that have been registered in Vic
 
 _(*) x = 5, 6, ...., 15_ 
 
+.
 
 **Stay tuned!**
