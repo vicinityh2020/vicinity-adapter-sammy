@@ -1,0 +1,42 @@
+{
+    "adapter-id": "vicinity-sammy-adapter",
+    "thing-descriptions":
+            [{
+                    "name": "My Sample CO2 Sensor Thing",
+                    "type": "core:Temperature",
+                    "version": "0.0.1",
+                    "oid": "co2-sensor-001-sample-oid",
+                    "properties": [
+                        {
+                            "pid": "prop",
+                            "monitors": "adapters:Temperature",
+                            "read_link": {
+                                "href": "/objects/{oid}/properties/{pid}",
+                                "output": {
+                                    "field": [
+                                        {
+                                            "name": "value",
+                                            "schema": {
+                                                "units": "ppm",
+                                                "type": "double"
+                                            }
+                                        },
+                                        {
+                                            "name": "timestamp",
+                                            "schema": {
+                                                "units": "datetime",
+                                                "type": "string"
+                                            }
+                                        }
+                                    ],
+                                    "type": "object"
+                                }
+                            }
+                        }
+
+                    ],
+                    "actions": [],
+                    "events": []
+                }
+            ]
+}

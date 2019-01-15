@@ -1,0 +1,330 @@
+{
+  "adapter-id": "vicinity-sammy-adapter",
+  "thing-descriptions": [
+    {
+      "oid": "fba3091f-48c7-451b-bab7-aecd86fac60d",
+      "name": "Patras port mooring air temperature",
+      "type": "adapters:Thermometer",
+      "properties": [{
+        "pid": "TEMP",
+        "monitors": "adapters:AmbientTemperature",
+        "read_link": {
+          "href": "/objects/{oid}/properties/{pid}",
+          "output": {
+            "field": [{
+              "name": "value",
+              "schema": {
+                "units": "celsius",
+                "type": "string"
+              }
+            }],
+            "type": "object"
+          }
+        }
+      }],
+      "actions": [],
+      "events": []
+    },
+    {
+      "oid": "015cae22-5d65-4385-8131-6182ce488e47",
+      "name": "Patras port mooring humidity",
+      "type": "adapters:HumiditySensor",
+      "properties": [{
+        "pid": "HUMA",
+        "monitors": "adapters:RelativeHumidity",
+        "read_link": {
+          "href": "/objects/{oid}/properties/{pid}",
+          "output": {
+            "field": [{
+              "name": "value",
+              "schema": {
+                "units": "percent",
+                "type": "string"
+              }
+            }],
+            "type": "object"
+          }
+        }
+      }],
+      "actions": [],
+      "events": []
+    },
+    {
+      "oid": "94f6b02a-c3fd-431c-861e-bcdc3e1c508e",
+      "name": "Patras port mooring water temperature",
+      "type": "adapters:Thermometer",
+      "properties": [{
+        "pid": "IN_TEMP",
+        "monitors": "adapters:AmbientTemperature",
+        "read_link": {
+          "href": "/objects/{oid}/properties/{pid}",
+          "output": {
+            "field": [{
+              "name": "value",
+              "schema": {
+                "units": "celsius",
+                "type": "string"
+              }
+            }],
+            "type": "object"
+          }
+        }
+      }],
+      "actions": [],
+      "events": []
+    },
+    {
+      "oid": "450a214f-8c7f-4d0a-9ca3-bb21b438e139",
+      "name": "Patras port mooring birth space No11",
+      "type": "adapters:OccupancySensor",
+      "properties": [{
+        "pid": "BS11",
+        "monitors": "adapters:OnOff",
+        "read_link": {
+          "href": "/objects/{oid}/properties/{pid}",
+          "output": {
+            "field": [{
+              "name": "value",
+              "schema": {
+                "type": "boolean"
+              }
+            }],
+            "type": "object"
+          }
+        }
+      }],
+      "actions": [],
+      "events": []
+    },
+    {
+      "oid": "1269872d-1829-46f9-9bb0-163f594c2ccd",
+      "name": "Patras port mooring birth space No10",
+      "type": "adapters:OccupancySensor",
+      "properties": [{
+        "pid": "BS10",
+        "monitors": "adapters:OnOff",
+        "read_link": {
+          "href": "/objects/{oid}/properties/{pid}",
+          "output": {
+            "field": [{
+              "name": "value",
+              "schema": {
+                "type": "boolean"
+              }
+            }],
+            "type": "object"
+          }
+        }
+      }],
+      "actions": [],
+      "events": []
+    },
+    {
+      "oid": "26999fea-9d2d-4ff2-897a-62ce8da69d20",
+      "name": "Patras port mooring birth space No6",
+      "type": "adapters:OccupancySensor",
+      "properties": [{
+        "pid": "BS6",
+        "monitors": "adapters:OnOff",
+        "read_link": {
+          "href": "/objects/{oid}/properties/{pid}",
+          "output": {
+            "field": [{
+              "name": "value",
+              "schema": {
+                "type": "boolean"
+              }
+            }],
+            "type": "object"
+          }
+        }
+      }],
+      "actions": [],
+      "events": []
+    },
+    {
+      "oid": "b0dc3899-6939-4a5b-abcc-6b6be3fd3257",
+      "name": "Patras port mooring birth space No12",
+      "type": "adapters:OccupancySensor",
+      "properties": [{
+        "pid": "BS12",
+        "monitors": "adapters:OnOff",
+        "read_link": {
+          "href": "/objects/{oid}/properties/{pid}",
+          "output": {
+            "field": [{
+              "name": "value",
+              "schema": {
+                "type": "boolean"
+              }
+            }],
+            "type": "object"
+          }
+        }
+      }],
+      "actions": [],
+      "events": []
+    },
+    {
+      "oid": "b1dacabc-dd6e-451d-bbcd-12bd7d2fe3b9",
+      "name": "Patras port mooring birth space No15",
+      "type": "adapters:OccupancySensor",
+      "properties": [{
+        "pid": "BS15",
+        "monitors": "adapters:OnOff",
+        "read_link": {
+          "href": "/objects/{oid}/properties/{pid}",
+          "output": {
+            "field": [{
+              "name": "value",
+              "schema": {
+                "type": "boolean"
+              }
+            }],
+            "type": "object"
+          }
+        }
+      }],
+      "actions": [],
+      "events": []
+    },
+    {
+      "oid": "8760b310-7a60-428c-8fa7-e6dcad47c91a",
+      "name": "Patras port mooring birth space No14",
+      "type": "adapters:OccupancySensor",
+      "properties": [{
+        "pid": "BS14",
+        "monitors": "adapters:OnOff",
+        "read_link": {
+          "href": "/objects/{oid}/properties/{pid}",
+          "output": {
+            "field": [{
+              "name": "value",
+              "schema": {
+                "type": "boolean"
+              }
+            }],
+            "type": "object"
+          }
+        }
+      }],
+      "actions": [],
+      "events": []
+    },
+    {
+      "oid": "da787046-ab64-40a1-b75a-4384ce8ce26f",
+      "name": "Patras port mooring birth space No13",
+      "type": "adapters:OccupancySensor",
+      "properties": [{
+        "pid": "BS13",
+        "monitors": "adapters:OnOff",
+        "read_link": {
+          "href": "/objects/{oid}/properties/{pid}",
+          "output": {
+            "field": [{
+              "name": "value",
+              "schema": {
+                "type": "boolean"
+              }
+            }],
+            "type": "object"
+          }
+        }
+      }],
+      "actions": [],
+      "events": []
+    },
+    {
+      "oid": "ca7b73cb-b1b0-4ad7-96fe-0bc1da564dff",
+      "name": "Patras port mooring birth space No9",
+      "type": "adapters:OccupancySensor",
+      "properties": [{
+        "pid": "BS9",
+        "monitors": "adapters:OnOff",
+        "read_link": {
+          "href": "/objects/{oid}/properties/{pid}",
+          "output": {
+            "field": [{
+              "name": "value",
+              "schema": {
+                "type": "boolean"
+              }
+            }],
+            "type": "object"
+          }
+        }
+      }],
+      "actions": [],
+      "events": []
+    },
+    {
+      "oid": "30c0080a-17bc-4c10-bfc8-12e1c37a528b",
+      "name": "Patras port mooring birth space No7",
+      "type": "adapters:OccupancySensor",
+      "properties": [{
+        "pid": "BS7",
+        "monitors": "adapters:OnOff",
+        "read_link": {
+          "href": "/objects/{oid}/properties/{pid}",
+          "output": {
+            "field": [{
+              "name": "value",
+              "schema": {
+                "type": "boolean"
+              }
+            }],
+            "type": "object"
+          }
+        }
+      }],
+      "actions": [],
+      "events": []
+    },
+    {
+      "oid": "2cc3b699-15c1-4731-b525-75624c54f3a5",
+      "name": "Patras port mooring birth space No5",
+      "type": "adapters:OccupancySensor",
+      "properties": [{
+        "pid": "BS5",
+        "monitors": "adapters:OnOff",
+        "read_link": {
+          "href": "/objects/{oid}/properties/{pid}",
+          "output": {
+            "field": [{
+              "name": "value",
+              "schema": {
+                "type": "boolean"
+              }
+            }],
+            "type": "object"
+          }
+        }
+      }],
+      "actions": [],
+      "events": []
+    },
+    {
+      "oid": "1b12bf2e-ce1a-4db0-8963-1b0d985c83f2",
+      "name": "Patras port mooring birth space No8",
+      "type": "adapters:OccupancySensor",
+      "properties": [{
+        "pid": "BS8",
+        "monitors": "adapters:OnOff",
+        "read_link": {
+          "href": "/objects/{oid}/properties/{pid}",
+          "output": {
+            "field": [{
+              "name": "value",
+              "schema": {
+                "type": "boolean"
+              }
+            }],
+            "type": "object"
+          }
+        }
+      }],
+      "actions": [],
+      "events": []
+    }
+  ]
+}
