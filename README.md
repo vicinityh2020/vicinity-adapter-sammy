@@ -39,9 +39,9 @@ SaMMY IoT platform includes the following the IoT resources:
     
     1.5 PH
 
-2. Birth spaces occupancy/availability
+2. Berth spaces occupancy/availability
 
-    2.1 11-devices for respective birth spaces, namely spaces 5-15 
+    2.1 11-devices for respective berth spaces, namely spaces 5-15 
 
 
 14-SaMMY IoT resources (1.1, 1.2, 1.3 and 11-devices from 2.1) have been modelled according to Vicinity adapters ontology and thus 
