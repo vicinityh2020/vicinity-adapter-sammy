@@ -1,5 +1,6 @@
 # VICINITY SaMMY Adapter
 
+
 ## About SaMMY
 
 SaMMy is an IoT, cloud-based platform which provides services for the yachting industry; 
@@ -20,6 +21,7 @@ platform enables interoperability with other IoT providers or systems, using ope
 technologies and application-irrelevant data models (RESTful-JSON).
 
 [SaMMY official website](https://www.sammyacht.com)
+
 
 ## Adopting SaMMY IoT resources to VICINITY things
 
@@ -57,6 +59,31 @@ SaMMY devices from Patras (Greece) port mooring that have been registered in Vic
 
 _(*) x = 5, 6, ...., 15_ 
 
-.
+
+## Configuration and Installation of adapter
+
+VICINITY Adapter for SaMMY is configured via [application.properties](src/main/resources/application.properties)
+and specifically the properties:
+
+```
+sammy.protocol=http
+sammy.host=www.sammyacht.com
+sammy.port=80
+sammy.path=/sammy/web/vicinity
+sammy.user=vicinity
+sammy.pass=Hx6rsham
+sammy.marinaId=1
+```
+
+The specified username and password has been enabled by the vendor of SaMMY platform in order to enable 
+access and integration with VICINITY Adapter.
+
+VICINITY Adapter for SaMMY is developed in Java 8 and uses Spring Boot Framework 1.5.x, thus it can be 
+installed via:
+
+```
+mvn install
+```
+
 
 **Stay tuned!**
