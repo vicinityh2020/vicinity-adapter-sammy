@@ -15,7 +15,7 @@ communication protocols between devices and systems, a unified RESTful-based dat
 series of services through web interfaces, plus a mobile application (iOS and Android). 
 The sensor readings are processed so as to become suitable for the Marina Management needs 
 but also for the yachters/skippers/crew members. The network infrastructure and the low-level 
-software components (agents and collectors) are used to transfer the data into the cloud, 
+software components (agents and collectors) are used to transfer the data into the cloud,   
 which act as the data storage pool of the various end-user services. The architecture of the 
 platform enables interoperability with other IoT providers or systems, using open source 
 technologies and application-irrelevant data models (RESTful-JSON).
