@@ -20,36 +20,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/optionsnet/vicinity/adapter/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="67" column="47" selection-start-line="67" selection-start-column="47" selection-end-line="67" selection-end-column="47" />
+            <state relative-caret-position="440">
+              <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/things-sammy.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="1227" column="19" lean-forward="true" selection-start-line="1227" selection-start-column="19" selection-end-line="1227" selection-end-column="19" />
-              <folding>
-                <element signature="e#74#751#0" />
-                <element signature="e#709#1332#0" />
-                <element signature="e#1338#1972#0" />
-                <element signature="e#1978#2564#0" />
-                <element signature="e#2570#3156#0" />
-                <element signature="e#3162#3746#0" />
-                <element signature="e#3752#4338#0" />
-                <element signature="e#4344#4930#0" />
-                <element signature="e#4936#5522#0" />
-                <element signature="e#5528#6114#0" />
-                <element signature="e#6120#6704#0" />
-                <element signature="e#6710#7294#0" />
-                <element signature="e#7300#7884#0" />
-                <element signature="e#7890#8474#0" />
-                <element signature="e#34619#35163#0" />
-                <element signature="e#35173#35720#0" />
-                <element signature="e#35791#36293#0" />
-              </folding>
+            <state relative-caret-position="352">
+              <caret line="1217" column="23" lean-forward="true" selection-start-line="1217" selection-start-column="23" selection-end-line="1217" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -98,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -146,7 +127,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -219,6 +199,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -326,7 +307,8 @@
       <workItem from="1547565864203" duration="12000" />
       <workItem from="1557826546627" duration="1634000" />
       <workItem from="1557839395010" duration="1652000" />
-      <workItem from="1560186715049" duration="5887000" />
+      <workItem from="1560186715049" duration="6073000" />
+      <workItem from="1560193025823" duration="340000" />
     </task>
     <task id="LOCAL-00001" summary="Updated Things Descriptions">
       <created>1560192647325</created>
@@ -335,16 +317,24 @@
       <option name="project" value="LOCAL" />
       <updated>1560192647325</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updated Things Descriptions">
+      <created>1560192820878</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1560192820878</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12470000" />
+    <option name="totallyTimeSpent" value="12996000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="3854" height="1046" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0975224" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0975224" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -360,7 +350,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32968238" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32968238" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -387,6 +377,27 @@
     <option name="LAST_COMMIT_MESSAGE" value="Updated Things Descriptions" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/optionsnet/vicinity/adapter/services/impl/AdapterServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="88" column="4" lean-forward="true" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/optionsnet/vicinity/adapter/services/AdapterService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="55" column="17" lean-forward="true" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/optionsnet/vicinity/adapter/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -414,53 +425,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/optionsnet/vicinity/adapter/services/impl/AdapterServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="88" column="4" lean-forward="true" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/optionsnet/vicinity/adapter/services/AdapterService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="55" column="17" lean-forward="true" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/optionsnet/vicinity/adapter/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="67" column="47" selection-start-line="67" selection-start-column="47" selection-end-line="67" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/things-sammy.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="1227" column="19" lean-forward="true" selection-start-line="1227" selection-start-column="19" selection-end-line="1227" selection-end-column="19" />
-          <folding>
-            <element signature="e#74#751#0" />
-            <element signature="e#709#1332#0" />
-            <element signature="e#1338#1972#0" />
-            <element signature="e#1978#2564#0" />
-            <element signature="e#2570#3156#0" />
-            <element signature="e#3162#3746#0" />
-            <element signature="e#3752#4338#0" />
-            <element signature="e#4344#4930#0" />
-            <element signature="e#4936#5522#0" />
-            <element signature="e#5528#6114#0" />
-            <element signature="e#6120#6704#0" />
-            <element signature="e#6710#7294#0" />
-            <element signature="e#7300#7884#0" />
-            <element signature="e#7890#8474#0" />
-            <element signature="e#34619#35163#0" />
-            <element signature="e#35173#35720#0" />
-            <element signature="e#35791#36293#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -470,8 +434,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/things-sammy.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="1217" column="23" lean-forward="true" selection-start-line="1217" selection-start-column="23" selection-end-line="1217" selection-end-column="23" />
         </state>
       </provider>
     </entry>
