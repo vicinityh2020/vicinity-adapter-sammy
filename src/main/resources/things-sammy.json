@@ -16,6 +16,7 @@
             "output": {
               "field": [{
                 "name": "value",
+                "predicate" : "core:value",
                 "schema": {
                   "units": "celsius",
                   "type": "string"
@@ -102,6 +103,7 @@
               "field": [
                 {
                   "name": "value",
+                  "predicate" : "core:value",
                   "schema": {
                     "units": "percent",
                     "type": "string"
@@ -189,6 +191,7 @@
               "field": [
                 {
                   "name": "value",
+                  "predicate" : "core:value",
                   "schema": {
                     "units": "celsius",
                     "type": "string"
@@ -276,6 +279,7 @@
               "field": [
                 {
                   "name": "value",
+                  "predicate" : "core:value",
                   "schema": {
                     "type": "boolean"
                   }
@@ -362,6 +366,7 @@
               "field": [
                 {
                   "name": "value",
+                  "predicate" : "core:value",
                   "schema": {
                     "type": "boolean"
                   }
@@ -448,6 +453,7 @@
               "field": [
                 {
                   "name": "value",
+                  "predicate" : "core:value",
                   "schema": {
                     "type": "boolean"
                   }
@@ -534,6 +540,7 @@
               "field": [
                 {
                   "name": "value",
+                  "predicate" : "core:value",
                   "schema": {
                     "type": "boolean"
                   }
@@ -620,6 +627,7 @@
               "field": [
                 {
                   "name": "value",
+                  "predicate" : "core:value",
                   "schema": {
                     "type": "boolean"
                   }
@@ -706,6 +714,7 @@
               "field": [
                 {
                   "name": "value",
+                  "predicate" : "core:value",
                   "schema": {
                     "type": "boolean"
                   }
@@ -792,6 +801,7 @@
               "field": [
                 {
                   "name": "value",
+                  "predicate" : "core:value",
                   "schema": {
                     "type": "boolean"
                   }
@@ -878,6 +888,7 @@
               "field": [
                 {
                   "name": "value",
+                  "predicate" : "core:value",
                   "schema": {
                     "type": "boolean"
                   }
@@ -964,6 +975,7 @@
               "field": [
                 {
                   "name": "value",
+                  "predicate" : "core:value",
                   "schema": {
                     "type": "boolean"
                   }
@@ -1050,6 +1062,7 @@
               "field": [
                 {
                   "name": "value",
+                  "predicate" : "core:value",
                   "schema": {
                     "type": "boolean"
                   }
@@ -1136,6 +1149,7 @@
               "field": [
                 {
                   "name": "value",
+                  "predicate" : "core:value",
                   "schema": {
                     "type": "boolean"
                   }
@@ -1223,6 +1237,7 @@
               "field": [
                 {
                   "name": "value",
+                  "predicate" : "core:value",
                   "schema": {
                     "type": "double"
                   }
@@ -1309,6 +1324,7 @@
               "field": [
                 {
                   "name": "value",
+                  "predicate" : "core:value",
                   "schema": {
                     "type": "double"
                   }
